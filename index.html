@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Encanto</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">🧁Doce<span>Encanto🎂</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#fidelidade">Fidelidade</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li class="cart-icon" id="cart-icon">
+                        Carrinho
+                        <span class="cart-count" id="cart-count">0</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="hero">
+        <h1>Os melhores doces para o seu Dia a Dia</h1>
+        <p>Mais que doces,criamos lembranças</p>
+        <a href="#products" class="btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de produtos -->
+    <section class="products" id="products">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-grid" id="products-grid">
+            <!-- Os produtos serão inseridos via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Carrinho lateral -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Itens do carrinho serão inseridos aqui -->
+        </div>
+        <div class="cart-total">
+            Total: R$ <span id="cart-total">0.00</span>
+        </div>
+        <button class="checkout-btn">Finalizar Compra</button>
+    </div>
+    <section id="sobre" class="products">
+        <h2 class="section-title">Sobre nós</h2>
+        <p>A Doce Encanto nasceu do amor pela confeitaria e do desejo de transformar momentos simples em doces lembranças.
+            Nossa missão é espalhar alegria com bolos feitos com carinho e ingredientes de qualidade.
+            Valorizamos o sabor caseiro, o cuidado em cada detalhe e o sorriso de quem prova.
+             Nossso diferencial está no toque artesanal que torna cada bolo único. 
+             Nosso próposito é adoçar a vida das pessoas e tornar cada dia um pouco mais especial🎂🥮
+        </p>
+    </section>
+    <section id="Fidelidade" class="products">
+        <h2 class="section-title">Fidelidade</h2>
+        <p></p>Na Doce Encanto, cada cliente fiel tem um motivo a mais para voltar! Nosso Programa de Fidelidade transforma cada compra em pontos acumulativos, que você pode usar para ganhar descontos progressivos quanto mais comprar, maiores os descontos! 🎂
+
+            Além disso, os membros do programa têm acesso antecipado aos lançamentos, podendo experimentar novos sabores e produtos antes de todo mundo. Também oferecemos benefícios especiais, como brindes exclusivos, cupons de aniversário e promoções-relâmpago com até 30% de desconto.
+            
+            E o melhor: os clientes frequentes entram para o nosso nível premium, com vantagens extras, como frete grátis em determinadas compras e descontos fixos em produtos selecionados.
+            
+            Ser fiel à Doce Encanto é saborear mais, pagar menos e aproveitar cada pedacinho com vantagem! 🍰💖
+        </p>
+    </section>
+    <section id="contato" class="products">
+        <h2 class="section-title">Contato</h2>
+        <p>Endereço: BR-470, km 470 - nº 2555 - Navegantes, Rio do Sul - SC, 89162-528
+            Telefone: (47) 98412-6117
+            Horário de funcionamento: 
+           07:15 - 22:00
+            </p>
+    </section>
+   
+   
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Doce Encanto. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Serviço</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </footer>
+<script src="scripts.js"></script> 
+
+</body>
+</html>
