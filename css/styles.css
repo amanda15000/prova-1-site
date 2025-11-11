@@ -3,13 +3,13 @@
 /* ==================================== */
 :root {
     /* Paleta de Cores Monocromática Azul */
-    --cor-principal: #f049c6; /* Azul Médio/Principal */
-    --cor-secundaria: #db349b; /* Azul Vibrante/Acento */
-    --cor-acento: #761a6e;    /* Azul Escuro/Detalhe */
-    --cor-fundo: #eaf2f8;     /* Azul Claro Suave/Fundo */
+    --cor-principal: #f049c6; 
+    --cor-secundaria: #db349b; 
+    --cor-acento: #761a6e;    
+    --cor-fundo: #eaf2f8;     
     --cor-texto: #333333;
     --cor-clara: #ffffff;
-    --cor-preco: #000000;     /* Cor dos preços em Preto */
+    --cor-preco: #000000;     
     --sombra-suave: 0 4px 12px rgba(0, 0, 0, 0.08);
     --borda-arredondada: 12px;
 }

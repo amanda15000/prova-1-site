@@ -46,7 +46,7 @@ const products = [
     {
         id: 7,
         name: "Donunts ",
-        description: "Bolo de uva com chantilly" ,
+        description: "Rosquinha com cobertura de morango" ,
         price: 16.59,
         image: "image/Donunts de Morango.avif"
     },
@@ -67,7 +67,7 @@ const products = [
     {
         id: 10,
         name: "Morango do Amor",
-        description: "bombom de morango com calda e brigadeiro " ,
+        description: "Bombom de morango com calda e brigadeiro " ,
         price: 17.99,
         image: "image/Morango do Amor.jpg"
     },
